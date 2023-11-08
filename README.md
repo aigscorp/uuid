@@ -9,7 +9,7 @@
 6. создать базу данных под названием uuid средствами phpadmin 
 7. запустить миграцию php artisan migrate
 8. прописать в файле .env пользователя DB_USERNAME=root, 
-и пароль DB_PASSWORD=root
+и пароль DB_PASSWORD=root, БД DB_DATABASE=uuid
 9. запуск приложения в режиме developer
 php artisan serve, затем открыть еще одну консоль (cmd) там запустить vite.
 
